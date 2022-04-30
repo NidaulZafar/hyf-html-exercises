@@ -4,7 +4,21 @@
   box-sizing: border-box; 
 }
 
-
+header {
+    display: flex;
+    align-items: center;
+    border: 2px solid yellow;
+}
+.logo {
+    width: 150px;
+    
+    border: 1px solid black;
+    align-items: center;
+}
+.logo img {
+    width: 100%;
+    
+}
 .searchbar {
   margin: 200px auto;
   width: 500px;
