@@ -116,3 +116,22 @@ a.whitebutton {
 .maintext a {
     text-decoration: none;
 }
+.unis {
+    background-color: rgb(231, 226, 226);
+    padding: 75px;
+}
+.unis p {
+    font-size: 28px;
+    text-align: center;
+    
+}
+.unis p a {
+    text-decoration: none;
+    
+}
+.imgsrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 60px 20px 60px;
+}
