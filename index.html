@@ -12,34 +12,48 @@
 <script src="https://kit.fontawesome.com/ee351af5dc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="imgs/download.svg" alt="Logo">
-        </div>
-        <div class="button">Explore
-        </div>
-        <div class="searchbar">
-            <form action="/" method="GET" class="form">
-              <input type="search" placeholder="What do you want to learn?" class="search-field">
-              <button type="submit" class="search-button">
-                <img src="imgs/search.png">
-              </button>
-            </form>
-        </div>
-        <nav>
-              <ul class="navbar">
-                  <li><a href="#">Online Degrees</a></li>
-                  <li><a href="#">Find your New Career</a></li>
-                  <li><a href="#">For Enterprise</a></li>
-                  <li><a href="#">For Universities</a></li>
-              </ul>
-        </nav>
-        <div class="joining">
-              <a href="#">Log In</a>
-              <a href="#" class="button">Join for Free</a>
-        </div>
-    </header>    
-    
+    <header id="fullscreen">
+        <section class="headerleft">
+            <div class="logo">
+                <img src="imgs/download.svg" alt="Logo">
+            </div>
+            <div class="button">
+                Explore
+            </div>
+            <div class="searchbar">
+                <form action="/" method="GET" class="form">
+                  <input type="search" placeholder="What do you want to learn?" class="search-field">
+                  <button type="submit" class="search-button">
+                    <img src="imgs/search.png">
+                  </button>
+                </form>
+            </div>
+        </section>
+        <section class="headerright">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#">Online Degrees</a></li>
+                    <li><a href="#">Find your New Career</a></li>
+                    <li><a href="#">For Enterprise</a></li>
+                    <li><a href="#">For Universities</a></li>
+                </ul>
+          </nav>
+          <div class="joining">
+                <a href="#">Log In</a>
+                <a href="#" class="button">Join for Free</a>
+          </div>            
+        </section>
+       
+            </header> 
+
+            <header id="mobilefriendly">
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+                <label class="menu-lines" for="menu-btn">
+                    <span class="nav-lines"></span>
+                </label> 
+            <img class="logo" src="imgs/download.svg" alt="">
+            <img id="search" src="imgs/search.png" alt="">
+        </header>
     <main>
         <section class="maininfo">
         <div class="maintext">
